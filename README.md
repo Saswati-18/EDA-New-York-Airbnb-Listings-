@@ -5,7 +5,7 @@
 ## Project Overview
 This project performs **Exploratory Data Analysis (EDA)** on New York Airbnb data to uncover trends and patterns in rental listings. We use libraries like **Pandas, Numpy, Matplotlib, Seaborn**for cleaning, visualization, and analysis. 
 
-![](https://github.com/najirh/Python-Project-P2-New-York-AirBnb-Listing-2024/blob/main/New-York-City-Brooklyn-Bridge-Panorama-Juergen-Roth-2.jpg)
+![](https://github.com/Saswati-18/EDA-New-York-Airbnb-Listings-/blob/main/airbnb%20logo.jpg)
 
 ---
 
@@ -37,7 +37,7 @@ The dataset contains **20,765 entries and 22 features**, including:
 ### 1. Data Cleaning
 - **Handle missing data**: `price`, `neighborhood`, and `beds` columns had null values.
 - **Fix data types**: Converted `last_review` to a **datetime** object.
-- **Remove outliers**: Listings with prices > $1,000 were capped to avoid skewed visualizations.
+- **Remove outliers**: Listings with prices > $1,500 were capped to avoid skewed visualizations.
 
 ### 2. EDA (Exploratory Data Analysis)
 1. **Room type distribution**: 
@@ -45,7 +45,7 @@ The dataset contains **20,765 entries and 22 features**, including:
    - Identified **Entire home/apt** as the most common room type.
 
 2. **Neighborhood group insights**:
-   - Analyzed **price variations by boroughs**.
+   - Analyzed **price variations by average price**.
    - Manhattan had the **highest average prices**.
 
 3. **Availability trends**:
@@ -89,19 +89,11 @@ The dataset contains **20,765 entries and 22 features**, including:
 ---
 
 ## How to Run This Project
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/najirh/Python-Project-P2-New-York-AirBnb-Listing-2024.git
    ```
-2. Install the required libraries:
+1. Install the required libraries:
    ```bash
    pip install pandas numpy matplotlib seaborn
    ```
-3. Run the **Jupyter notebook** or **Python script**:
-   ```bash
-   jupyter notebook day23_airbnb_eda.ipynb
-   ```
-
 ---
 
 ## Recommendations
@@ -111,14 +103,7 @@ The dataset contains **20,765 entries and 22 features**, including:
 
 - **For Hosts**:  
    - Improve **availability** and **review response rates** to attract more bookings.
-   - Manage pricing effectively to compete within the borough's market.
-
----
-
-## Future Work
-- Use **machine learning** to predict prices based on room type and location.
-- Perform **sentiment analysis** on reviews to better understand guest experiences.
-- Create an **interactive dashboard** using Plotly or Tableau for live monitoring.
+   - Manage pricing effectively to compete within the market.
 
 ---
 
